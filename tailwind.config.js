@@ -51,6 +51,13 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+
+        'frame-background': "var(--frame-background)",
+        'frame-control-color': 'var(--frame-control-color)',
+        'frame-title-placeholder-color': "var(--frame-title-placeholder-color)",
+        'frame-title-color': 'var(--frame-title-color)',
+        'frame-shadow-border': 'var(--frame-shadow-border)',
+        'frame-highlight-border': 'var(--frame-highlight-border)'
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -71,6 +78,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      gridTemplateColumns: {
+        'fr48': "48px 1fr 48px"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
